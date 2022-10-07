@@ -42,7 +42,6 @@ try:
 except URLError as e:
     streamlit.error()
 
-streamlit.stop()
 
 streamlit.header("The fruit load list contains:")
 #snowflake-realted functions
@@ -69,4 +68,5 @@ if streamli.button('Add a Fruit to the list'):
   streamlit.text(back_from_function)
 
 
+streamlit.stop()
 
